@@ -14,14 +14,16 @@
 -
 ![100.jpg](https://github.com/liuleo0518/book_discussion_Seminar_II/blob/main/100.jpg)
 第一個主題是「智慧系統設計與應用—智慧魚缸」。教授展示了如何結合 HomeAssistant、ESP32、MQTT 通訊協定以及 OpenCV 影像辨識，打造出一個完整的遠端監控系統。這套架構不單只是感測水溫或光照，還整合了自動餵食與抽水馬達控制。看到教授將複雜的感測與控制節點繪製成清晰的系統概念圖，對於未來我們在規劃大型系統架構時，是非常好的學習範本。
--
+
 口罩檢驗管理系統
+-
 ![104.jpg](https://github.com/liuleo0518/book_discussion_Seminar_II/blob/main/104.jpg)
 第二個主題「口罩檢驗管理系統」則切入了工業界常見的產品瑕疵檢測。演講中探討了將影像預處理後，投入 ResNet、InceptionV3 與 Xception 等不同卷積神經網路（CNN）模型的成效。這讓我更明白，在真實場域中選擇深度學習模型，必須針對特定資料集的特徵來評估不同網路架構的萃取能力。
 改良 YOLOv8 模型之遙測影像目標偵測
--
+
 改良 YOLOv8 模型之遙測影像目標偵測
+-
 ![108.jpg](https://github.com/liuleo0518/book_discussion_Seminar_II/blob/main/108.jpg)
 第三個主題「改良 YOLOv8 模型之遙測影像目標偵測」則是我最有共鳴的一段。演講中比較了原版與改良後的 YOLOv8n-Bi、YOLOv8n-TFBi 模型，能在維持參數量（Parameter）與推論時間（Inference time）變動不大的前提下，穩步提升 mAP 與 Precision。這讓我回想起之前在實作 YOLOv8 步行安全偵測裝置專案時，也曾遇到模型輕量化與辨識精準度之間的取捨難題。陳教授團隊透過調整網路結構來優化效能的思路，給了我很大的啟發。
--
+
 這次的演講從 IoT 系統整合一路談到 AI 演算法的底層改良，層次分明且極具啟發性，為我接下來的碩士班研究提供了寶貴的參考方向。
